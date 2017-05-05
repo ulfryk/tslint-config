@@ -1,5 +1,4 @@
 {
-  "extends": "./tslint-eslint.json",
   "rules": {
     "adjacent-overload-signatures": true,
     "arrow-parens": [true, "ban-single-arg-parens"],
