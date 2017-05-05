@@ -1,5 +1,5 @@
 {
-  "name": "tslint-config",
+  "name": "@samwise-tech/tslint-config",
   "version": "0.0.1",
   "description": "Samwise Technology TSLint configuration",
   "main": "tslint.json",
