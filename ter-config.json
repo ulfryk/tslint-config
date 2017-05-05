@@ -1,0 +1,33 @@
+{
+  "rulesDirectory": "./node_modules/tslint-eslint-rules/dist/rules",
+  "rules": {
+    "array-bracket-spacing": [true, "never"],
+    "block-spacing": true,
+    "brace-style": [true, "1tbs", { "allowSingleLine": true }],
+    "no-constant-condition": true,
+    "no-control-regex": true,
+    "no-duplicate-case": true,
+    "no-empty-character-class": true,
+    "no-ex-assign": true,
+    "no-extra-boolean-cast": true,
+    "no-extra-semi": true,
+    "no-inner-declarations": [true, "both"],
+    "no-invalid-regexp": true,
+    "no-multi-spaces": [true, {
+      "exceptions": { "PropertyAssignment": false, "OtherException": false }
+    }],
+    "no-regex-spaces": true,
+    "no-unexpected-multiline": true,
+    "object-curly-spacing": [true, "always"],
+    "ter-indent": [true, 2, {
+      "SwitchCase": true,
+      "FunctionDeclaration": { "parameters": 1, "body": 1 },
+      "FunctionExpression": { "parameters": 1, "body": 1 }
+    }],
+    "ter-max-len": [true, {
+      "code": 100,
+      "tabWidth": 2,
+      "ignoreStrings": true
+    }]
+  }
+}
