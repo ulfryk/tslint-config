@@ -1,0 +1,11 @@
+{
+  "rulesDirectory": ["../../tslint-immutable/rules"],
+  "rules": {
+    "no-arguments": true,
+    "no-label": true,
+    "no-let": true,
+    "readonly-array": true,
+    "readonly-indexer": true,
+    "readonly-interface": true
+  }
+}

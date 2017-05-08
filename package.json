@@ -1,6 +1,6 @@
 {
   "name": "@samwise-tech/tslint-config",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Samwise Technology TSLint configuration",
   "main": "tslint.json",
   "scripts": {
@@ -11,7 +11,8 @@
     "url": "git+https://github.com/samwise-tech/tslint-config.git"
   },
   "dependencies": {
-    "tslint-eslint-rules": "4.0.0"
+    "tslint-eslint-rules": "4.0.0",
+    "tslint-immutable": "3.2.0"
   },
   "devDependencies": {
     "tslint": "^5.2.0",
