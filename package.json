@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "tslint-eslint-rules": "4.0.0",
-    "tslint-immutable": "^3.2.0"
+    "tslint-immutable": "3.2.0"
   },
   "devDependencies": {
     "tslint": "^5.2.0",
