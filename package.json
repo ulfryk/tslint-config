@@ -1,10 +1,10 @@
 {
   "name": "@samwise-tech/tslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Samwise Technology TSLint configuration",
   "main": "tslint.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests sepcified yet\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "tslint-eslint-rules": "4.0.0",
-    "tslint-immutable": "3.2.0"
+    "tslint-immutable": "3.3.1"
   },
   "devDependencies": {
     "tslint": "^5.2.0",

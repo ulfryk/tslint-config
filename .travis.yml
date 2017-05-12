@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - '6'
+
+branches:
+  only:
+    - develop
+    - master
+
+before_install:
+  - printf "//registry.npmjs.org/:_authToken=${NPM_TOKEN}\n" >> .npmrc
+
+after_success:
+  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && npm publish
