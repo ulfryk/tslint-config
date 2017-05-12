@@ -4,7 +4,7 @@
   "description": "Samwise Technology TSLint configuration",
   "main": "tslint.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests sepcified yet\" && exit 0"
   },
   "repository": {
     "type": "git",
