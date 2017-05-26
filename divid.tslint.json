@@ -1,0 +1,7 @@
+{
+  "extends": ["tslint-divid"],
+  "rules": {
+    "no-arguments": true,
+    "no-label": true
+  }
+}
