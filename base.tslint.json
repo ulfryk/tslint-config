@@ -131,6 +131,7 @@
     "strict-boolean-expressions": true,
     "strict-type-predicates": true,
     "switch-default": true,
+    "switch-final-break": [true, "always"],
     "trailing-comma": [
       true,
       {
@@ -162,6 +163,7 @@
     ],
     "typeof-compare": true,
     "unified-signatures": true,
+    "use-default-type-parameter": true,
     "use-isnan": true,
     "variable-name": [
       true,
