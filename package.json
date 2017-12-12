@@ -17,11 +17,11 @@
   },
   "devDependencies": {
     "tslint": "^5.8.0",
-    "typescript": "^2.5.3"
+    "typescript": "^2.6.0"
   },
   "peerDependencies": {
     "tslint": "^5.8.0",
-    "typescript": "^2.5.3"
+    "typescript": "^2.6.0"
   },
   "author": "Samwise Technology, Inc. <icunningham@samwise.com>",
   "license": "MIT",
