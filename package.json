@@ -11,7 +11,7 @@
     "url": "git+https://github.com/samwise-tech/tslint-config.git"
   },
   "dependencies": {
-    "tslint-divid": "1.0.4",
+    "tslint-divid": "1.3.0",
     "tslint-eslint-rules": "4.1.1",
     "tslint-immutable": "4.4.0"
   },
