@@ -1,7 +1,9 @@
 {
   "extends": ["tslint-immutable"],
   "rules": {
+    "no-delete": true,
     "no-let": true,
+    "no-loop-statement": true,
     "readonly-array": true,
     "readonly-keyword": true
   }
