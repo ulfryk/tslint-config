@@ -1,10 +1,11 @@
 {
   "name": "@samwise-tech/tslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Samwise Technology TSLint configuration",
   "main": "tslint.json",
   "scripts": {
-    "test": "node_modules/.bin/tslint --format verbose './test/**/*.{ts,tsx}'"
+    "test:linting": "tslint --format verbose './test/**/*.{ts,tsx}'",
+    "test": "yarn check --integration && yarn outdated && yarn test:linting"
   },
   "repository": {
     "type": "git",
@@ -13,14 +14,14 @@
   "dependencies": {
     "tslint-divid": "1.3.0",
     "tslint-eslint-rules": "4.1.1",
-    "tslint-immutable": "4.4.0"
+    "tslint-immutable": "4.5.1"
   },
   "devDependencies": {
-    "tslint": "^5.8.0",
+    "tslint": "^5.9.0",
     "typescript": "^2.6.0"
   },
   "peerDependencies": {
-    "tslint": "^5.8.0",
+    "tslint": "^5.9.0",
     "typescript": "^2.6.0"
   },
   "author": "Samwise Technology, Inc. <icunningham@samwise.com>",

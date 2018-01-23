@@ -64,6 +64,7 @@
     "no-duplicate-imports": true,
     "no-duplicate-super": true,
     "no-duplicate-variable": true,
+    "no-dynamic-delete": true,
     "no-empty": true,
     "no-eval": true,
     "no-floating-promises": true,
@@ -113,6 +114,7 @@
     "prefer-const": true,
     "prefer-for-of": true,
     "prefer-object-spread": true,
+    "prefer-readonly": true,
     "prefer-switch": true,
     "quotemark": [
       true,
@@ -162,7 +164,6 @@
         "variable-declaration": "onespace"
       }
     ],
-    "typeof-compare": true,
     "unified-signatures": true,
     "use-default-type-parameter": true,
     "use-isnan": true,
