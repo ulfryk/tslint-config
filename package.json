@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "tslint-divid": "1.3.0",
-    "tslint-eslint-rules": "5.2.0",
-    "tslint-immutable": "4.5.4"
+    "tslint-eslint-rules": "5.3.1",
+    "tslint-immutable": "4.6.0"
   },
   "devDependencies": {
     "tslint": "^5.9.1",
