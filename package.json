@@ -4,7 +4,7 @@
   "description": "Samwise Technology TSLint configuration",
   "main": "tslint.json",
   "scripts": {
-    "test:linting": "tslint --format verbose './test/**/*.{ts,tsx}'",
+    "test:linting": "tslint --project tsconfig.json --format verbose './test/**/*.ts'",
     "test": "yarn check --integration && yarn outdated && yarn test:linting"
   },
   "repository": {
@@ -13,16 +13,16 @@
   },
   "dependencies": {
     "tslint-divid": "1.3.0",
-    "tslint-eslint-rules": "5.3.1",
-    "tslint-immutable": "4.6.0"
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-immutable": "4.9.1"
   },
   "devDependencies": {
-    "tslint": "^5.9.1",
-    "typescript": "^2.7.2"
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.0"
   },
   "peerDependencies": {
-    "tslint": "^5.9.1",
-    "typescript": "^2.7.2"
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.0"
   },
   "author": "Samwise Technology, Inc. <icunningham@samwise.com>",
   "license": "MIT",

@@ -1,10 +1,12 @@
 {
   "extends": ["tslint-immutable"],
   "rules": {
+    "no-array-mutation": true,
     "no-delete": true,
     "no-let": true,
     "no-loop-statement": true,
-    "readonly-array": true,
+    "no-method-signature": true,
+    "no-object-mutation": true,
     "readonly-keyword": true
   }
 }
