@@ -1,7 +1,7 @@
 {
-  "name": "@samwise-tech/tslint-config",
-  "version": "1.0.7",
-  "description": "Samwise Technology TSLint configuration",
+  "name": "@ulfryk/tslint-config",
+  "version": "1.0.0",
+  "description": "Yet another strict TSLint configuration",
   "main": "tslint.json",
   "scripts": {
     "test:linting": "tslint --project tsconfig.json --format verbose './test/**/*.ts'",
@@ -9,25 +9,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samwise-tech/tslint-config.git"
+    "url": "git+https://github.com/ulfryk/tslint-config.git"
   },
   "dependencies": {
     "tslint-divid": "1.3.0",
     "tslint-eslint-rules": "5.4.0",
-    "tslint-immutable": "4.9.1"
+    "tslint-immutable": "5.1.2"
   },
   "devDependencies": {
-    "tslint": "^5.11.0",
-    "typescript": "^3.0.0"
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
   },
   "peerDependencies": {
-    "tslint": "^5.11.0",
-    "typescript": "^3.0.0"
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
   },
-  "author": "Samwise Technology, Inc. <icunningham@samwise.com>",
+  "author": "Jakub Strojewski <ulfryk@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/samwise-tech/tslint-config/issues"
+    "url": "https://github.com/ulfryk/tslint-config/issues"
   },
-  "homepage": "https://github.com/samwise-tech/tslint-config#readme"
+  "homepage": "https://github.com/ulfryk/tslint-config#readme"
 }
