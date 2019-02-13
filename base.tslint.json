@@ -123,7 +123,7 @@
       "avoid-escape"
     ],
     "radix": true,
-    "semicolon": [true, "always"],
+    "semicolon": [true, "never"],
     "space-before-function-paren": [true, {
       "anonymous": "never",
       "named": "never",
