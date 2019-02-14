@@ -1,2 +1,2 @@
 # tslint-config
-SamWise TSLint configuration
+Yet another TSLint configuration

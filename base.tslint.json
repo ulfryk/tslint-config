@@ -68,7 +68,7 @@
     "no-empty": true,
     "no-eval": true,
     "no-floating-promises": true,
-    "no-import-side-effect": [true, { "ignore-module": "(reflect\\-metadata|\\.sass)" }],
+    "no-import-side-effect": [true, { "ignore-module": "(\\.css|\\.scss|\\.sass|\\.less)" }],
     "no-inferrable-types": true,
     "no-inferred-empty-object-type": true,
     "no-internal-module": true,
