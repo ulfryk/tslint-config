@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/ulfryk/tslint-config/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/ulfryk/tslint-config#readme"
 }
