@@ -1,6 +1,6 @@
 {
   "name": "@ulfryk/tslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Yet another strict TSLint configuration",
   "main": "tslint.json",
   "scripts": {
