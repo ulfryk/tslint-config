@@ -1,6 +1,6 @@
 {
   "name": "@ulfryk/tslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Yet another strict TSLint configuration",
   "main": "tslint.json",
   "scripts": {
@@ -14,15 +14,15 @@
   "dependencies": {
     "tslint-divid": "1.3.0",
     "tslint-eslint-rules": "5.4.0",
-    "tslint-immutable": "5.2.0"
+    "tslint-immutable": "6.0.1"
   },
   "devDependencies": {
-    "tslint": "^5.12.1",
-    "typescript": "^3.3.3"
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
   },
   "peerDependencies": {
-    "tslint": "^5.12.1",
-    "typescript": "^3.3.3"
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
   },
   "author": "Jakub Strojewski <ulfryk@gmail.com>",
   "license": "MIT",
